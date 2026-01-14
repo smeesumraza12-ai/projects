@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var num1 = Number(prompt("Enter Your Number 1 : "));
+        var operator = prompt("Enter Your Operator : ");
+        var num2 = Number(prompt("Enter Your Number 2 : "));
+
+        if(operator == "+"){
+            document.write("Addition Of These Numbers Are : ",num1+num2);
+        }
+        else if(operator == "-"){
+            document.write("Subtraction Of These Numbers Are : ",num1-num2);
+        }
+        else if(operator == "*"){
+            document.write("Multiplication Of These Numbers Are : ",num1*num2);           
+        }
+        else if(operator == "/"){
+            document.write("Division Of These Numbers Are : ",num1/num2);
+        }
+        else if(operator == "%"){
+            document.write("The Modulo Of These Numbers Are : ",num1%num2);
+        }
+        else if(operator == "**"){
+            document.write("The Answer Of These Numbers Are : ",num1**num2);
+        }
+        else{
+            document.write("Unidentified Operator !!");
+        }      
+    </script>
+    
+</body>
+</html>
